@@ -1,378 +1,296 @@
 export default [
-  {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
-    "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
+    {
+        "id": "lorelai_gilmore",
+        "name": "Lorelai Gilmore",
+        "shortDescription": "Gerente de Dragonfly Inn.",
+        "description": "Lorelai Gilmore es una madre soltera fuerte y valiente que ha criado a su hija Rory con amor y determinación. Como gerente de Dragonfly Inn, Lorelai demuestra su pasión por el café, las películas y los libros.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c6/LorelaiGilmore.jpg",
+        "facts": {
+            "ocupación": "Gerente de Dragonfly Inn",
+            "intereses": ["Café", "Películas", "Libros"],
+            "número de apariciones": 153
+        }
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
-    }
-  },
-  {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
-    "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
+    {
+        "id": "rory_gilmore",
+        "name": "Rory Gilmore",
+        "shortDescription": "Estudiante universitaria.",
+        "description": "Rory Gilmore es una estudiante universitaria inteligente y apasionada por el periodismo. Su amor por los libros y el café la lleva a explorar el mundo con curiosidad y determinación.",
+        "imageUrl": "https://qph.cf2.quoracdn.net/main-qimg-4bfc69b193566e7e5d39919f48f77ff6",
+        "facts": {
+            "ocupación": "Estudiante universitaria",
+            "intereses": ["Periodismo", "Libros", "Café"],
+            "número de apariciones": 153
+        }
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
-    }
-  },
-  {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
-    "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
+    {
+        "id": "emily_gilmore",
+        "name": "Emily Gilmore",
+        "shortDescription": "Socialité y matriarca de su familia.",
+        "description": "Emily Gilmore es una distinguida socialité que se mueve en los círculos más exclusivos de la sociedad. Su amor por el arte y la música clásica refleja su elegancia y sofisticación.",
+        "imageUrl": "https://static.wikia.nocookie.net/gilmoregirls/images/f/f2/Kelly-bishop-emily-gilmore.jpg/revision/latest?cb=20160903013321",
+        "facts": {
+            "ocupación": "Socialité",
+            "intereses": ["Sociedad", "Arte", "Música clásica"],
+            "número de apariciones": 113
+        }
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
-    }
-  },
-  {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
+    {
+        "id": "richard_gilmore",
+        "name": "Richard Gilmore",
+        "shortDescription": "Empresario sofisticado.",
+        "description": "Richard Gilmore es un exitoso empresario con un gusto refinado por los negocios, el golf y la literatura. Su presencia imponente y su sabiduría lo convierten en una figura destacada en la vida de sus seres queridos.",
+        "imageUrl": "https://static.wikia.nocookie.net/gilmoregirls/images/e/e7/3richard.jpeg/revision/latest?cb=20170623151348",
+        "facts": {
+            "ocupación": "Empresario",
+            "intereses": ["Negocios", "Golf", "Literatura"],
+            "número de apariciones": 79
+        }
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
-    }
-  },
-  {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
-    "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
+    {
+        "id": "luke_danes",
+        "name": "Luke Danes",
+        "shortDescription": "Dueño de Luke's Diner.",
+        "description": "Luke Danes es un hombre de pocas palabras con un corazón de oro. Como dueño de Luke's Diner, se preocupa profundamente por su comunidad y disfruta de su pasión por el café, la cocina y la música.",
+        "imageUrl": "https://static.wikia.nocookie.net/gilmoregirls/images/c/c6/Luke_01.jpg/revision/latest?cb=20161103161629",
+        "facts": {
+            "ocupación": "Dueño de Luke's Diner",
+            "intereses": ["Café", "Cocina", "Música"],
+            "número de apariciones": 152
+        }
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
-    }
-  },
-  {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
-    "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
+    {
+        "id": "sookie_st_james",
+        "name": "Sookie St. James",
+        "shortDescription": "Chef apasionada.",
+        "description": "Sookie St. James es una talentosa chef conocida por su pasión por la cocina y la jardinería. Su amabilidad y amistad la convierten en una persona querida en Stars Hollow y más allá.",
+        "imageUrl": "https://static.wikia.nocookie.net/gilmoregirls/images/c/c5/3sook.jpg/revision/latest?cb=20171124181521",
+        "facts": {
+            "ocupación": "Chef",
+            "intereses": ["Cocina", "Jardinería", "Amistad"],
+            "número de apariciones": 151
+        }
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
-    }
-  },
-  {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
-    "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
+    {
+        "id": "paris_geller",
+        "name": "Paris Geller",
+        "shortDescription": "Estudiante ambiciosa.",
+        "description": "Paris Geller es una estudiante universitaria con una ambición desmedida por el éxito académico y el liderazgo. Apasionada por la medicina, Paris es conocida por su determinación y fuerte personalidad.",
+        "imageUrl": "https://helios-i.mashable.com/imagery/articles/07nNi4IIJfVJkVCzMar8oCI/hero-image.fill.size_1200x1200.v1611614261.jpg",
+        "facts": {
+            "ocupación": "Estudiante universitaria",
+            "intereses": ["Éxito académico", "Liderazgo", "Medicina"],
+            "número de apariciones": 66
+        }
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
-    }
-  },
-  {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
-    "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
+    {
+        "id": "lane_kim",
+        "name": "Lane Kim",
+        "shortDescription": "Apasionada por la música.",
+        "description": "Lane Kim es una joven apasionada por la música alternativa y la batería. Sueña con seguir su pasión musical mientras lucha por equilibrar las expectativas de su estricta familia y su deseo de libertad.",
+        "imageUrl": "https://i.pinimg.com/originals/ca/14/d7/ca14d70418e7f5feb7d4dcd227b6380d.jpg",
+        "facts": {
+            "ocupación": "Música",
+            "intereses": ["Música alternativa", "Batería", "Discos"],
+            "número de apariciones": 133
+        }
     },
-    "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
-    }
-  },
-  {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
-    "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
+    {
+        "id": "michel_gerard",
+        "name": "Michel Gerard",
+        "shortDescription": "Amante de la cultura francesa.",
+        "description": "Michel Gerard es un recepcionista de modales impecables con un amor por viajar, la moda y la cultura francesa. Aunque a menudo muestra una actitud sarcástica, su lealtad a Lorelai y su trabajo es innegable.",
+        "imageUrl": "https://i.pinimg.com/originals/7d/89/d7/7d89d7552793ca81edf8505d52182d6d.jpg",
+        "facts": {
+            "ocupación": "Recepcionista",
+            "intereses": ["Viajar", "Moda", "Cultura francesa"],
+            "número de apariciones": 94
+        }
     },
-    "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
-    }
-  },
-  {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
-    "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    {
+        "id": "kirk_gleason",
+        "name": "Kirk Gleason",
+        "shortDescription": "Hombre polifacético.",
+        "description": "Kirk Gleason es conocido en Stars Hollow por sus innumerables trabajos y sus intentos inusuales de emprendimiento. Aunque a menudo es excéntrico, su corazón está en el lugar correcto y es apreciado por la comunidad.",
+        "imageUrl": "https://i.pinimg.com/736x/a7/72/a4/a772a4930caae0c7a212c7632a690786.jpg",
+        "facts": {
+            "ocupación": "Trabajador múltiple",
+            "intereses": ["Organización"],
+            "número de apariciones": 153
+        }
     },
-    "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
-    }
-  },
-  {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    {
+        "id": "taylor_doose",
+        "name": "Taylor Doose",
+        "shortDescription": "Dueño de la tienda de comestibles.",
+        "description": "Taylor Doose es el infame dueño de la tienda de comestibles de Stars Hollow, conocido por su obsesión por la organización y las políticas municipales. Aunque a menudo es un tanto estricto, su amor por su comunidad es evidente.",
+        "imageUrl": "https://telltaletv.com/wp-content/uploads/2022/11/358_GILMOREGIRLS_101_SPR_02931R-scaled-e1668874657217-730x487.jpg",
+        "facts": {
+            "ocupación": "Dueño de la tienda de comestibles",
+            "intereses": ["Organización", "Comunidad", "Políticas municipales"],
+            "número de apariciones": 153
+        }
     },
-    "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
-    }
-  },
-  {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
-    "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    {
+        "id": "christopher_hayden",
+        "name": "Christopher Hayden",
+        "shortDescription": "Empresario viajero.",
+        "description": "Christopher Hayden es un exitoso empresario con un interés en los negocios, la familia y los viajes. Aunque su relación con Lorelai ha sido complicada, su amor por su hija Rory es innegable.",
+        "imageUrl": "https://i.pinimg.com/474x/52/69/55/5269556ffe9e06945e3c11568a66d5d5.jpg",
+        "facts": {
+            "ocupación": "Empresario",
+            "intereses": ["Negocios", "Familia", "Viajes"],
+            "número de apariciones": 41
+        }
     },
-    "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
-    }
-  },
-  {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
+{
+    "id": "dean_forester",
+    "name": "Dean Forester",
+    "shortDescription": "Vendedor de automóviles.",
+    "description": "Dean Forester es un vendedor de automóviles con una pasión por los coches y los deportes. Su relación con Rory Gilmore es una parte importante de su vida, aunque enfrenta desafíos mientras intenta equilibrar trabajo y amor.",
+    "imageUrl": "https://www.newamericanjackets.com/wp-content/uploads/2020/01/Dean-Forester-Gilmore-Girls-Jared-Padalecki-Jacket.jpg",
     "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
+        "ocupación": "Vendedor",
+        "intereses": ["Automóviles", "Deportes", "Rory"],
+        "número de apariciones": 63
     }
-  },
-  {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
+},
+{
+    "id": "jess_mariano",
+    "name": "Jess Mariano",
+    "shortDescription": "Apasionado por la literatura.",
+    "description": "Jess Mariano es un joven librero con un profundo amor por la literatura, la música y la escritura. A pesar de su actitud desafiante, muestra un lado sensible y reflexivo que lo hace intrigante para aquellos que lo conocen.",
+    "imageUrl": "https://static.wikia.nocookie.net/gilmoregirls/images/c/c5/205promojess.png/revision/latest?cb=20221129193933",
     "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
+        "ocupación": "Librero",
+        "intereses": ["Literatura", "Música", "Escritura"],
+        "número de apariciones": 53
     }
-  },
-  {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
+},
+{
+    "id": "miss_patty",
+    "name": "Miss Patty",
+    "shortDescription": "Bailarina retirada.",
+    "description": "Miss Patty es una bailarina retirada y la dueña de la escuela de danza de Stars Hollow. Con un amor por el baile y los chismes, es una figura querida en la comunidad que a menudo ofrece sabios consejos y un oído atento.",
+    "imageUrl": "https://www.plusbydesign.com/cdn/shop/articles/miss_patty_1024x1024.jpg?v=1500067505",
     "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
+        "ocupación": "Bailarina retirada / Dueña de la escuela de danza",
+        "intereses": ["Bailar", "Chismes", "Enseñar"],
+        "número de apariciones": 103
     }
-  },
-  {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
-    }
-  },
-  {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
-    }
-  },
-  {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
-    "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
-    }
-  },
-  {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
-    },
-    "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
-    }
-  },
-  {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
-    "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
-    },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
-    }
-  },
-  {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
-    "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
-    }
-  },
-  {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
-    "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
-    }
-  },
-  {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
-    "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
-    },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
-    }
-  },
-  {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
-    "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
-    },
-    "extraInfo": {
-      "imageSource": ""
-    }
+
+},
+{
+  "id": "mrs_kim",
+  "name": "Mrs. Kim",
+  "shortDescription": "Dueña de tienda de antigüedades.",
+  "description": "Mrs. Kim es una mujer de fuertes convicciones y tradiciones coreanas, dueña de una tienda de antigüedades en Stars Hollow. Aunque estricta, muestra un lado compasivo y amoroso hacia su hija Lane y la comunidad.",
+  "imageUrl": "https://i.insider.com/654d29b63cc84b4dfaff9c6e?width=1136&format=jpeg",
+  "facts": {
+      "ocupación": "Dueña de la tienda de antigüedades",
+      "intereses": ["Cultura coreana", "Religión", "Tradiciones"],
+      "número de apariciones": 58
   }
-];
+},
+{
+  "id": "jackson_belville",
+  "name": "Jackson Belleville",
+  "shortDescription": "Granjero apasionado.",
+  "description": "Jackson Belleville es un granjero comprometido con la agricultura orgánica y la sostenibilidad. Además de su amor por la tierra, es un devoto esposo y padre que se preocupa profundamente por su familia y su comunidad.",
+  "imageUrl": "https://static.wikia.nocookie.net/gilmoregirls/images/3/31/604jackson.jpeg/revision/latest/scale-to-width-down/250?cb=20170623161330",
+  "facts": {
+      "ocupación": "Granjero",
+      "intereses": ["Agricultura", "Cocina orgánica", "Familia"],
+      "número de apariciones": 123
+  }
+},
+{
+ "id": "dave_rygalski",
+ "name": "Dave Rygalski",
+ "imageUrl": "https://helios-i.mashable.com/imagery/articles/02ZrrZUp4BFMGx67HI4fqNi/hero-image.fill.size_1200x1200.v1611614173.jpg",
+ "shortDescription": "Amigo y compañero de banda de Lane Kim.",
+ "description": "Dave Rygalski es un amigo cercano y compañero de banda de Lane Kim en 'Gilmore Girls'. Es un músico talentoso y tuvo una relación sentimental con el personaje de Lane",
+ "facts": {
+  "ocupación": "Estudiante",
+  "intereses": ["Música", "Guitarra", "Banda de Lane"],
+  "número de apariciones": 11
+}
+},
+
+{
+  "id": "tj",
+  "name": "TJ",
+  "shortDescription": "Carismático y un mecánico hábil.",
+  "description": "TJ es un mecánico habilidoso y trabajador que tiene una fuerte conexión con su familia. Aunque a veces puede ser excéntrico, su corazón está en el lugar correcto y siempre está dispuesto a ayudar a sus seres queridos.",
+  "imageUrl": "https://static.wikia.nocookie.net/gilmoregirls/images/1/11/Tj.jpeg/revision/latest/scale-to-width-down/250?cb=20160418000210",
+  "facts": {
+      "ocupación": "Mecánico",
+      "intereses": ["Automóviles", "Trabajo manual", "Familia"],
+      "número de apariciones": 12
+  }
+},
+{
+  "id": "liz_danes",
+  "name": "Liz Danes",
+  "shortDescription": "Apasionada por el arte y la música.",
+  "description": "Liz Danes es una mujer apasionada por el arte, la música y la literatura. Como dueña de una tienda de antigüedades, comparte su amor por el pasado y la cultura con la comunidad de Stars Hollow.",
+  "imageUrl": "https://static.wikia.nocookie.net/gilmoregirls/images/c/ca/Liz.jpeg/revision/latest?cb=20160207192546",
+  "facts": {
+      "ocupación": "Dueña de tienda de antigüedades",
+      "intereses": ["Arte", "Música", "Libros"],
+      "número de apariciones": 10
+  }
+},
+{
+  "id": "carolyn_bates",
+  "name": "Carolyn Bates",
+  "shortDescription": "Directora de la escuela comprometida.",
+  "description": "Carolyn Bates es una directora de escuela comprometida con la educación y el bienestar de sus alumnos. Con un profundo amor por la literatura y la cultura, inspira a otros con su pasión por el aprendizaje.",
+  "imageUrl": "https://m.media-amazon.com/images/M/MV5BNzM0ODQ5NzY4Nl5BMl5BanBnXkFtZTgwNzQ2OTQ3MDI@._V1_.jpg",
+  "facts": {
+      "ocupación": "Directora de la escuela",
+      "intereses": ["Educación", "Cultura", "Literatura"],
+      "número de apariciones": 7
+  }
+},
+{
+  "id": "nicole_lewis",
+  "name": "Nicole Lewis",
+  "shortDescription": "Abogada comprometida con la justicia.",
+  "description": "Nicole Lewis es una abogada comprometida con la justicia y los derechos humanos. Su pasión por el servicio comunitario y su dedicación a ayudar a los demás la convierten en un pilar en la comunidad legal de Stars Hollow.",
+  "imageUrl": "https://media.themoviedb.org/t/p/w500/j0V63QscxjhZNeIWPHhtcFkLtUf.jpg",
+  "facts": {
+      "ocupación": "Abogada",
+      "intereses": ["Leyes", "Justicia", "Viajar"],
+      "número de apariciones": 27
+  }
+},
+{
+"id": "zack_van_gerbig",
+"name": "Zack Van Gerbig",
+"imageUrl": "https://static.wikia.nocookie.net/gilmoregirls/images/6/61/Untitled_12.png/revision/latest?cb=20160309035549",
+"shortDescription": "Guitarrista y miembro de la banda de Hep Alien.",
+"description": "Zack Van Gerbig es un guitarrista talentoso y un miembro fundamental de la banda de Hep Alien en 'Gilmore Girls'. A lo largo de la serie, demuestra su dedicación a la música y su lealtad hacia sus amigos y compañeros de banda.",
+"facts": {
+  "ocupación": "Músico / Miembro de Hep Alien",
+  "intereses": ["Música rock", "Batería", "Lane Kim"],
+  "número de apariciones":101
+}
+},
+{
+  "id": "fran_weston",
+  "name": "Fran Weston",
+  "shortDescription": "Apasionada por las antigüedades y la historia.",
+  "description": "Fran Weston es una apasionada de las antigüedades, la historia y la cultura. Como dueña de una tienda de antigüedades en Stars Hollow, comparte su amor por el pasado con la comunidad y los visitantes.",
+  "imageUrl": "https://static.wikia.nocookie.net/gilmoregirls/images/a/a4/2636ad63a2_78961005_o2.jpg/revision/latest?cb=20120715225956",
+  "facts": {
+      "ocupación": "Dueña de la tienda de antigüedades",
+      "intereses": ["Antigüedades", "Historia", "Cultura"],
+      "número de apariciones": 11
+  }
+}
+]
+
+
+
+
