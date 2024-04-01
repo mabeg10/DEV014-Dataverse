@@ -28,7 +28,7 @@ export default [
         "name": "Emily Gilmore",
         "shortDescription": "Socialité y matriarca de su familia.",
         "description": "Emily Gilmore es una distinguida socialité que se mueve en los círculos más exclusivos de la sociedad. Su amor por el arte y la música clásica refleja su elegancia y sofisticación.",
-        "imageUrl": "https://static.wikia.nocookie.net/gilmoregirls/images/f/f2/Kelly-bishop-emily-gilmore.jpg/revision/latest?cb=20160903013321",
+        "imageUrl": "https://www.cheatsheet.com/wp-content/uploads/2022/03/emily-gilmore.jpg",
         "facts": {
             "ocupación": "Socialité",
             "intereses": ["Sociedad", "Arte", "Música clásica"],
@@ -40,7 +40,7 @@ export default [
         "name": "Richard Gilmore",
         "shortDescription": "Empresario sofisticado.",
         "description": "Richard Gilmore es un exitoso empresario con un gusto refinado por los negocios, el golf y la literatura. Su presencia imponente y su sabiduría lo convierten en una figura destacada en la vida de sus seres queridos.",
-        "imageUrl": "https://static.wikia.nocookie.net/gilmoregirls/images/e/e7/3richard.jpeg/revision/latest?cb=20170623151348",
+        "imageUrl": "https://image.gala.de/20360122/t/Oe/v18/w1440/r0/-/gilmore-girls05--4746526-.jpg",
         "facts": {
             "ocupación": "Empresario",
             "intereses": ["Negocios", "Golf", "Literatura"],
@@ -52,7 +52,7 @@ export default [
         "name": "Luke Danes",
         "shortDescription": "Dueño de Luke's Diner.",
         "description": "Luke Danes es un hombre de pocas palabras con un corazón de oro. Como dueño de Luke's Diner, se preocupa profundamente por su comunidad y disfruta de su pasión por el café, la cocina y la música.",
-        "imageUrl": "https://static.wikia.nocookie.net/gilmoregirls/images/c/c6/Luke_01.jpg/revision/latest?cb=20161103161629",
+        "imageUrl": "https://i.pinimg.com/originals/86/ec/1e/86ec1e6872ec003b6e4dacf06686a8dc.jpg",
         "facts": {
             "ocupación": "Dueño de Luke's Diner",
             "intereses": ["Café", "Cocina", "Música"],
@@ -64,7 +64,7 @@ export default [
         "name": "Sookie St. James",
         "shortDescription": "Chef apasionada.",
         "description": "Sookie St. James es una talentosa chef conocida por su pasión por la cocina y la jardinería. Su amabilidad y amistad la convierten en una persona querida en Stars Hollow y más allá.",
-        "imageUrl": "https://static.wikia.nocookie.net/gilmoregirls/images/c/c5/3sook.jpg/revision/latest?cb=20171124181521",
+        "imageUrl": "https://i.pinimg.com/736x/64/ec/27/64ec27f7311b1061dbf0f450a8eb1bb5.jpg",
         "facts": {
             "ocupación": "Chef",
             "intereses": ["Cocina", "Jardinería", "Amistad"],
@@ -160,7 +160,7 @@ export default [
     "name": "Jess Mariano",
     "shortDescription": "Apasionado por la literatura.",
     "description": "Jess Mariano es un joven librero con un profundo amor por la literatura, la música y la escritura. A pesar de su actitud desafiante, muestra un lado sensible y reflexivo que lo hace intrigante para aquellos que lo conocen.",
-    "imageUrl": "https://static.wikia.nocookie.net/gilmoregirls/images/c/c5/205promojess.png/revision/latest?cb=20221129193933",
+    "imageUrl": "https://i.pinimg.com/736x/93/1d/69/931d697cac68b072d957f6c59e7662b7.jpg",
     "facts": {
         "ocupación": "Librero",
         "intereses": ["Literatura", "Música", "Escritura"],
@@ -197,7 +197,7 @@ export default [
   "name": "Jackson Belleville",
   "shortDescription": "Granjero apasionado.",
   "description": "Jackson Belleville es un granjero comprometido con la agricultura orgánica y la sostenibilidad. Además de su amor por la tierra, es un devoto esposo y padre que se preocupa profundamente por su familia y su comunidad.",
-  "imageUrl": "https://static.wikia.nocookie.net/gilmoregirls/images/3/31/604jackson.jpeg/revision/latest/scale-to-width-down/250?cb=20170623161330",
+  "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2020-10/28/19/enhanced/d19a304dfdf4/enhanced-278-1603911978-16.png?crop=570:407;40,0&output-format=jpg&output-quality=auto",
   "facts": {
       "ocupación": "Granjero",
       "intereses": ["Agricultura", "Cocina orgánica", "Familia"],
@@ -222,7 +222,7 @@ export default [
   "name": "TJ",
   "shortDescription": "Carismático y un mecánico hábil.",
   "description": "TJ es un mecánico habilidoso y trabajador que tiene una fuerte conexión con su familia. Aunque a veces puede ser excéntrico, su corazón está en el lugar correcto y siempre está dispuesto a ayudar a sus seres queridos.",
-  "imageUrl": "https://static.wikia.nocookie.net/gilmoregirls/images/1/11/Tj.jpeg/revision/latest/scale-to-width-down/250?cb=20160418000210",
+  "imageUrl": "https://i.pinimg.com/564x/cc/61/84/cc6184804791844d5a596def0868eaef.jpg",
   "facts": {
       "ocupación": "Mecánico",
       "intereses": ["Automóviles", "Trabajo manual", "Familia"],
@@ -234,7 +234,7 @@ export default [
   "name": "Liz Danes",
   "shortDescription": "Apasionada por el arte y la música.",
   "description": "Liz Danes es una mujer apasionada por el arte, la música y la literatura. Como dueña de una tienda de antigüedades, comparte su amor por el pasado y la cultura con la comunidad de Stars Hollow.",
-  "imageUrl": "https://static.wikia.nocookie.net/gilmoregirls/images/c/ca/Liz.jpeg/revision/latest?cb=20160207192546",
+  "imageUrl": "https://alchetron.com/cdn/kathleen-wilhoite-86a2f078-f431-4d62-acf8-0e7421c4d38-resize-750.jpeg",
   "facts": {
       "ocupación": "Dueña de tienda de antigüedades",
       "intereses": ["Arte", "Música", "Libros"],
@@ -268,7 +268,7 @@ export default [
 {
 "id": "zack_van_gerbig",
 "name": "Zack Van Gerbig",
-"imageUrl": "https://static.wikia.nocookie.net/gilmoregirls/images/6/61/Untitled_12.png/revision/latest?cb=20160309035549",
+"imageUrl": "https://i.pinimg.com/736x/eb/96/7b/eb967b9165158f7a03aca8c66f29d1f5.jpg",
 "shortDescription": "Guitarrista y miembro de la banda de Hep Alien.",
 "description": "Zack Van Gerbig es un guitarrista talentoso y un miembro fundamental de la banda de Hep Alien en 'Gilmore Girls'. A lo largo de la serie, demuestra su dedicación a la música y su lealtad hacia sus amigos y compañeros de banda.",
 "facts": {
@@ -282,7 +282,7 @@ export default [
   "name": "Fran Weston",
   "shortDescription": "Apasionada por las antigüedades y la historia.",
   "description": "Fran Weston es una apasionada de las antigüedades, la historia y la cultura. Como dueña de una tienda de antigüedades en Stars Hollow, comparte su amor por el pasado con la comunidad y los visitantes.",
-  "imageUrl": "https://static.wikia.nocookie.net/gilmoregirls/images/a/a4/2636ad63a2_78961005_o2.jpg/revision/latest?cb=20120715225956",
+  "imageUrl": "https://annotatedgilmoregirls.files.wordpress.com/2018/06/fran-weston.jpg",
   "facts": {
       "ocupación": "Dueña de la tienda de antigüedades",
       "intereses": ["Antigüedades", "Historia", "Cultura"],
