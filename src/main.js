@@ -1,8 +1,8 @@
-import { example } from './dataFunctions.js';
+//import { example } from './dataFunctions.js';
 import { renderItems } from './view.js';
 
 import data from './data/dataset.js';
 
-console.log(example, renderItems(data), data);
+const AccesoAlNodo = document.querySelector('#root')
 
-renderItems(data);
+AccesoAlNodo.appendChild(renderItems(data));

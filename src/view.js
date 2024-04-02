@@ -1,12 +1,14 @@
 export const renderItems = (data) => {
   console.log(data)
   // Aquí comienza tu código y puedes retornar lo que tu necesites
-  const AccesoAlNodo = document.querySelector('#root')
+  //const AccesoAlNodo = document.querySelector('#root')
+
   const elementUl = document.createElement('ul');
   
   data.forEach((personajes) => {
     console.log (personajes);
     const elementli = document.createElement('li');
+    elementli.classList.add("styleli")
     //elementli.textContent=personajes.name.shortDescription;
     const dlpersonajes = document.createElement('dl');
     dlpersonajes.setAttribute("itemtype","Gilmore Girls Universe");
@@ -36,8 +38,8 @@ export const renderItems = (data) => {
     elementUl.appendChild(elementli);
   });
  
-  AccesoAlNodo.appendChild(elementUl);
- 
+  //AccesoAlNodo.appendChild(elementUl);
+  return elementUl;
 };
 
 
