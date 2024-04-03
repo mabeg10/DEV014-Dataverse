@@ -18,6 +18,7 @@ export const renderItems = (data) => {
     img.src = personajes.imageUrl;
 
     const dtName = document.createElement('dt');
+    dtName.textContent = 'Nombre:';
     const ddName = document.createElement('dd');
     ddName.textContent = personajes.name;
 
@@ -38,8 +39,5 @@ export const renderItems = (data) => {
     elementUl.appendChild(elementli);
   });
  
-  //AccesoAlNodo.appendChild(elementUl);
   return elementUl;
 };
-
-
