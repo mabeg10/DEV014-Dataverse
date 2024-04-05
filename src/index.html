@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Dataverse</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <script src="main.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Dataverse</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1> GILMORE GIRL SERIE </h1>
+  </header>
+  <main>
+    <h2> </h2>
+    <label for="filter"> Filtrar por :</label>
+    <select id="filter" data-testid="select-filter" name="intereses">
+      <option value=""></option>
+      <option value="Arte">Arte</option>
+      <option value="Café">Café</option>
+      <option value="Música">Música</option>
+      <option value="Libros">Libros</option>
+    </select>
+
+    <div id="root"> </div>
+  </main>
+  <footer></footer>
+  <script src="main.js" type="module"></script>
+</body>
 </html>
