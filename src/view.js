@@ -1,5 +1,4 @@
 export const renderItems = (data) => {
-  console.log(data)
   // Aquí comienza tu código y puedes retornar lo que tu necesites
   const elementUl = document.createElement('ul');
 
@@ -13,18 +12,18 @@ export const renderItems = (data) => {
     dlpersonajes.setAttribute("itemtype", "Girlmore Girls Serie");
     dlpersonajes.setAttribute("itemscope",""); 
 
-   //IMG
+    //IMG
     const img =document.createElement('img')
     img.src = personajes.imageUrl         // o es imageUrl?
 
-   //DT NAME - DD NAME
+    //DT NAME - DD NAME
     const dtName = document.createElement('dt')      
     dtName.textContent = 'Nombre:'; 
 
     const ddName = document.createElement('dd')
     ddName.textContent = personajes.name;          //xq aca no aplica 1ro un dtName.texcontent='Nombre:'
 
-   //DT SHORT DESCRIPTION DD SHORT DESCRIPTION
+    //DT SHORT DESCRIPTION DD SHORT DESCRIPTION
     const dtShortDescription = document.createElement('dt')
     dtShortDescription.textContent = 'Description:';            //esto es para cambiar el termino x description
    
