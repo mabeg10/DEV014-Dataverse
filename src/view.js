@@ -1,43 +1,50 @@
 export const renderItems = (data) => {
-  console.log(data)
   // Aquí comienza tu código y puedes retornar lo que tu necesites
-  //const AccesoAlNodo = document.querySelector('#root')
-
   const elementUl = document.createElement('ul');
-  
-  data.forEach((personajes) => {
-    console.log (personajes);
+
+  data.forEach(personajes => {
+
     const elementli = document.createElement('li');
-    elementli.classList.add("styleli")
-    //elementli.textContent=personajes.name.shortDescription;
-    const dlpersonajes = document.createElement('dl');
-    dlpersonajes.setAttribute("itemtype","Gilmore Girls Universe");
-    dlpersonajes.setAttribute("itemscope","");
-    
-    const img = document.createElement('img');
-    img.src = personajes.imageUrl;
+    elementli.classList.add("stiloLi") 
 
-    const dtName = document.createElement('dt');
-    dtName.textContent = 'Nombre:';
-    const ddName = document.createElement('dd');
-    ddName.textContent = personajes.name;
+    // CREAR MI DL [DT-DD]
+    const dlpersonajes = document.createElement('dl');  //list definition
+    dlpersonajes.setAttribute("itemtype", "Girlmore Girls Serie");
+    dlpersonajes.setAttribute("itemscope",""); 
 
-    const dtShortDescripcion = document.createElement('dt');
-    dtShortDescripcion.textContent = 'Descripción:';
-    const ddShortDescripcion = document.createElement('dd');
-    ddShortDescripcion.textContent = personajes.shortDescription;
+    //IMG
+    const img =document.createElement('img')
+    img.src = personajes.imageUrl         // o es imageUrl?
 
-    dlpersonajes.appendChild(img);
-    dlpersonajes.appendChild(dtName);
-    dlpersonajes.appendChild(ddName);
-    dlpersonajes.appendChild(dtShortDescripcion);
-    dlpersonajes.appendChild(ddShortDescripcion);
-  
+    //DT NAME - DD NAME
+    const dtName = document.createElement('dt')      
+    dtName.textContent = 'Nombre:'; 
+
+    const ddName = document.createElement('dd')
+    ddName.textContent = personajes.name;          //xq aca no aplica 1ro un dtName.texcontent='Nombre:'
+
+    //DT SHORT DESCRIPTION DD SHORT DESCRIPTION
+    const dtShortDescription = document.createElement('dt')
+    dtShortDescription.textContent = 'Description:';            //esto es para cambiar el termino x description
+   
+    const ddShortDescription = document.createElement('dd')
+    ddShortDescription.textContent = personajes.shortDescription; //esto es para reempazar el shortD en el contenidodd
 
     elementli.appendChild(dlpersonajes);
 
-    elementUl.appendChild(elementli);
+    //GUARDO
+    dlpersonajes.appendChild(img);
+    dlpersonajes.appendChild(dtName);
+    dlpersonajes.appendChild(ddName);
+    dlpersonajes.appendChild(dtShortDescription);
+    dlpersonajes.appendChild(ddShortDescription);
+
+    elementli.appendChild(dlpersonajes);
+
+    elementUl.appendChild(elementli)
+
   });
  
   return elementUl;
 };
+

@@ -1,43 +1,51 @@
 html {
-
-background-image: linear-gradient(to bottom right, #D9D5F4, #D1ADD1);     
-
+    background-image: linear-gradient(to bottom right, #d9d5f4, #d1Add1);
 }
+
 h1 {
-  color: #412474;
-  font-size: 60px;
-  font-style: italic;
-  margin-top: 50px;
-  margin-bottom: 20px;
+    color: #412441;
+    font-size: 60 px;
+    font-style: italic;
+    margin-top: 50px;
+    /*cuando le pongo esto, permanece el titulo*/
+    margin-bottom: 20px;
     text-align: center;
-  
 }
-#root {
-    display: flex;
-     
-  }
-  ul {
+
+ul {
+    /* el flex se coloca en el ul*/
     display: flex;
     flex-direction: row;
     list-style-type: none;
     padding: 20px;
     flex-wrap: wrap;
-    justify-content:center;
-  }
-  
-  .styleli {
+    justify-content: center;
+}
+
+.stiloLi {
     color: black;
-    background-color: #EBDEEF;
+    background-color: #ebdeef;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4PX 8px rgba(0, 0, 0, 1.8);
     padding: 20px;
     width: calc(25% - 20px);
-    margin: 10px; 
-    
-  }
-  
-  
-  img {
+    margin: 10px;
+    display: flex;
+    /*estudiar el DISPLAY*/
+    justify-content: center;
+    align-items: center;
+}
+
+img {
     width: 200px;
-    height:  220px;
+    height: 220px;
+}
+
+h2 {
+    display: block;
+    color: #412441;
+    font-size: 60 px;
+    font-style: italic;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
