@@ -14,7 +14,7 @@ export const renderItems = (data) => {
 
     //IMG
     const img =document.createElement('img')
-    img.src = personajes.imageUrl         // o es imageUrl?
+    img.src = personajes.imageUrl         
 
     //DT NAME - DD NAME
     const dtName = document.createElement('dt')      
@@ -30,6 +30,12 @@ export const renderItems = (data) => {
     const ddShortDescription = document.createElement('dd')
     ddShortDescription.textContent = personajes.shortDescription; //esto es para reempazar el shortD en el contenidodd
 
+    const dtIntereses = document.createElement('dt')  
+    dtIntereses.textContent = 'Intereses: ';
+
+    const ddIntereses = document.createElement('dd')
+    ddIntereses.textContent = personajes.facts.intereses
+
     elementli.appendChild(dlpersonajes);
 
     //GUARDO
@@ -38,6 +44,8 @@ export const renderItems = (data) => {
     dlpersonajes.appendChild(ddName);
     dlpersonajes.appendChild(dtShortDescription);
     dlpersonajes.appendChild(ddShortDescription);
+    dlpersonajes.appendChild(dtIntereses);
+    dlpersonajes.appendChild(ddIntereses);
 
     elementli.appendChild(dlpersonajes);
 

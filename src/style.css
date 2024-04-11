@@ -1,15 +1,31 @@
 html {
     background-image: linear-gradient(to bottom right, #d9d5f4, #d1Add1);
 }
+ header {
+    background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYndhbGxuZ3dvMm8zbWlydXN6MmtuZmdscmNpbzNvc3VmbmptM3l6ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1368cjuhRQBOak/giphy.gif');
+  background-size: 100% 100%;; /* Ajusta el tamaño del fondo para cubrir el contenedor */
+  background-position: center bottom; /* Coloca el fondo centrado y debajo del contenido */
+  text-align: center; /* Centra el contenido horizontalmente */
+  height: 100px;
+  margin-bottom: 0;
+  padding-bottom: 0; 
+  margin-bottom: 0; 
+  padding-bottom: 0;
+    h1 {
+        color: #412474;
+        font-size: 50px;
+        font-style: italic;
+        padding: 30px;
+        text-align: center;
+        
+    }
+    
+}
 
-h1 {
-    color: #412441;
-    font-size: 60 px;
-    font-style: italic;
-    margin-top: 50px;
-    /*cuando le pongo esto, permanece el titulo*/
-    margin-bottom: 20px;
-    text-align: center;
+h2 {
+ margin-top: 0; 
+ padding-top: 0; 
+  padding-bottom: 0;
 }
 
 ul {
@@ -36,16 +52,35 @@ ul {
     align-items: center;
 }
 
+.stiloLi img {
+   
+        width: 300px; /*  ancho de la imagen */
+        height: 320px; /*  altura */
+        box-sizing: border-box; /*  márgenes y rellenos en el ancho y la altura */
+        border-radius: 3px;
+    }
+
 img {
     width: 200px;
     height: 220px;
 }
 
-h2 {
-    display: block;
-    color: #412441;
-    font-size: 60 px;
-    font-style: italic;
-    margin-top: 60px;
-    margin-bottom: 20px;
+#controles {
+    color: #ebdeef;
+    background-color: #412474;
+    width: 1320px;
+    height: 40px; 
+    padding-top: 10px;
+    padding-left: 40px;
+    border-radius: 3px;
+}
+
+label[for="filter"] {
+    font-family: Verdana;
+    font-size: 20px; 
+}
+
+label[for="order"] {
+    font-family: Verdana;
+    font-size: 20px; 
 }

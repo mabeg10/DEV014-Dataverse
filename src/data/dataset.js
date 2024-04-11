@@ -7,7 +7,7 @@ export default [
         "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c6/LorelaiGilmore.jpg",
         "facts": {
             "ocupación": "Gerente de Dragonfly Inn",
-            "intereses": ["Café", "Películas", "Libros"],
+            "intereses": [" Café", " Películas", " Libros"],
             "número de apariciones": 153
         }
     },
@@ -19,7 +19,7 @@ export default [
         "imageUrl": "https://qph.cf2.quoracdn.net/main-qimg-4bfc69b193566e7e5d39919f48f77ff6",
         "facts": {
             "ocupación": "Estudiante universitaria",
-            "intereses": ["Periodismo", "Libros", "Café"],
+            "intereses": [" Periodismo"," Libros", " Café"],
             "número de apariciones": 153
         }
     },
@@ -31,7 +31,7 @@ export default [
         "imageUrl": "https://cdn.vox-cdn.com/thumbor/_pmWu3TKeg-CndaOQN5wGl3anrs=/0x0:640x480/1400x1400/filters:focal(269x189:371x291):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/51998983/emily.0.jpeg",
         "facts": {
             "ocupación": "Socialité",
-            "intereses": ["Sociedad", "Arte", "Música clásica"],
+            "intereses": [" Sociedad", " Arte", " Música clásica"],
             "número de apariciones": 113
         }
     },
@@ -43,7 +43,7 @@ export default [
         "imageUrl": "https://image.gala.de/20360122/t/Oe/v18/w1440/r0/-/gilmore-girls05--4746526-.jpg",
         "facts": {
             "ocupación": "Empresario",
-            "intereses": ["Negocios", "Golf", "Literatura"],
+            "intereses": ["Negocios", " Golf", " Literatura"],
             "número de apariciones": 79
         }
     },
@@ -55,7 +55,7 @@ export default [
         "imageUrl": "https://i.pinimg.com/originals/86/ec/1e/86ec1e6872ec003b6e4dacf06686a8dc.jpg",
         "facts": {
             "ocupación": "Dueño de Luke's Diner",
-            "intereses": ["Café", "Cocina", "Música"],
+            "intereses": ["Café", " Cocina", " Música"],
             "número de apariciones": 152
         }
     },
@@ -67,7 +67,7 @@ export default [
         "imageUrl": "https://i.pinimg.com/736x/64/ec/27/64ec27f7311b1061dbf0f450a8eb1bb5.jpg",
         "facts": {
             "ocupación": "Chef",
-            "intereses": ["Cocina", "Jardinería", "Amistad"],
+            "intereses": [" Cocina", " Jardinería", " Amistad"],
             "número de apariciones": 151
         }
     },
@@ -79,7 +79,7 @@ export default [
         "imageUrl": "https://helios-i.mashable.com/imagery/articles/07nNi4IIJfVJkVCzMar8oCI/hero-image.fill.size_1200x1200.v1611614261.jpg",
         "facts": {
             "ocupación": "Estudiante universitaria",
-            "intereses": ["Éxito académico", "Liderazgo", "Medicina"],
+            "intereses": [" Éxito académico", " Liderazgo", " Medicina"],
             "número de apariciones": 66
         }
     },
@@ -91,7 +91,7 @@ export default [
         "imageUrl": "https://i.pinimg.com/originals/ca/14/d7/ca14d70418e7f5feb7d4dcd227b6380d.jpg",
         "facts": {
             "ocupación": "Música",
-            "intereses": ["Música alternativa", "Batería", "Discos"],
+            "intereses": [" Música alternativa", " Batería", " Discos"],
             "número de apariciones": 133
         }
     },
@@ -103,7 +103,7 @@ export default [
         "imageUrl": "https://i.pinimg.com/originals/7d/89/d7/7d89d7552793ca81edf8505d52182d6d.jpg",
         "facts": {
             "ocupación": "Recepcionista",
-            "intereses": ["Viajar", "Moda", "Cultura francesa"],
+            "intereses": ["Viajar", " Moda", " Cultura francesa"],
             "número de apariciones": 94
         }
     },
@@ -139,7 +139,7 @@ export default [
         "imageUrl": "https://i.pinimg.com/474x/52/69/55/5269556ffe9e06945e3c11568a66d5d5.jpg",
         "facts": {
             "ocupación": "Empresario",
-            "intereses": ["Negocios", "Familia", "Viajes"],
+            "intereses": ["Negocios", " Familia", " Viajes"],
             "número de apariciones": 41
         }
     },
@@ -151,7 +151,7 @@ export default [
     "imageUrl": "https://www.newamericanjackets.com/wp-content/uploads/2020/01/Dean-Forester-Gilmore-Girls-Jared-Padalecki-Jacket.jpg",
     "facts": {
         "ocupación": "Vendedor",
-        "intereses": ["Automóviles", "Deportes", "Rory"],
+        "intereses": ["Automóviles", " Deportes", " Rory"],
         "número de apariciones": 63
     }
 },
@@ -163,7 +163,7 @@ export default [
     "imageUrl": "https://i.pinimg.com/736x/93/1d/69/931d697cac68b072d957f6c59e7662b7.jpg",
     "facts": {
         "ocupación": "Librero",
-        "intereses": ["Literatura", "Música", "Escritura"],
+        "intereses": ["Literatura", " Música", "Escritura"],
         "número de apariciones": 53
     }
 },
@@ -175,7 +175,7 @@ export default [
     "imageUrl": "https://www.plusbydesign.com/cdn/shop/articles/miss_patty_1024x1024.jpg?v=1500067505",
     "facts": {
         "ocupación": "Bailarina retirada / Dueña de la escuela de danza",
-        "intereses": ["Bailar", "Chismes", "Enseñar"],
+        "intereses": ["Bailar", " Chismes", " Enseñar"],
         "número de apariciones": 103
     }
 
@@ -188,7 +188,7 @@ export default [
   "imageUrl": "https://i.insider.com/654d29b63cc84b4dfaff9c6e?width=1136&format=jpeg",
   "facts": {
       "ocupación": "Dueña de la tienda de antigüedades",
-      "intereses": ["Cultura coreana", "Religión", "Tradiciones"],
+      "intereses": ["Cultura coreana", " Religión", " Tradiciones"],
       "número de apariciones": 58
   }
 },
@@ -200,7 +200,7 @@ export default [
   "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2020-10/28/19/enhanced/d19a304dfdf4/enhanced-278-1603911978-16.png?crop=570:407;40,0&output-format=jpg&output-quality=auto",
   "facts": {
       "ocupación": "Granjero",
-      "intereses": ["Agricultura", "Cocina orgánica", "Familia"],
+      "intereses": ["Agricultura", " Cocina orgánica", " Familia"],
       "número de apariciones": 123
   }
 },
@@ -212,7 +212,7 @@ export default [
  "description": "Dave Rygalski es un amigo cercano y compañero de banda de Lane Kim en 'Gilmore Girls'. Es un músico talentoso y tuvo una relación sentimental con el personaje de Lane",
  "facts": {
   "ocupación": "Estudiante",
-  "intereses": ["Música", "Guitarra", "Banda de Lane"],
+  "intereses": ["Música", " Guitarra", " Banda de Lane"],
   "número de apariciones": 11
 }
 },
@@ -225,7 +225,7 @@ export default [
   "imageUrl": "https://i.pinimg.com/564x/cc/61/84/cc6184804791844d5a596def0868eaef.jpg",
   "facts": {
       "ocupación": "Mecánico",
-      "intereses": ["Automóviles", "Trabajo manual", "Familia"],
+      "intereses": ["Automóviles", " Trabajo manual", " Familia"],
       "número de apariciones": 12
   }
 },
@@ -237,7 +237,7 @@ export default [
   "imageUrl": "https://alchetron.com/cdn/kathleen-wilhoite-86a2f078-f431-4d62-acf8-0e7421c4d38-resize-750.jpeg",
   "facts": {
       "ocupación": "Dueña de tienda de antigüedades",
-      "intereses": ["Arte", "Música", "Libros"],
+      "intereses": ["Arte", " Música", " Libros"],
       "número de apariciones": 10
   }
 },
@@ -249,7 +249,7 @@ export default [
   "imageUrl": "https://m.media-amazon.com/images/M/MV5BNzM0ODQ5NzY4Nl5BMl5BanBnXkFtZTgwNzQ2OTQ3MDI@._V1_.jpg",
   "facts": {
       "ocupación": "Directora de la escuela",
-      "intereses": ["Educación", "Cultura", "Literatura"],
+      "intereses": ["Educación", " Cultura", " Literatura"],
       "número de apariciones": 7
   }
 },
@@ -261,7 +261,7 @@ export default [
   "imageUrl": "https://media.themoviedb.org/t/p/w500/j0V63QscxjhZNeIWPHhtcFkLtUf.jpg",
   "facts": {
       "ocupación": "Abogada",
-      "intereses": ["Leyes", "Justicia", "Viajar"],
+      "intereses": ["Leyes", " Justicia", " Viajar"],
       "número de apariciones": 27
   }
 },
@@ -273,7 +273,7 @@ export default [
 "description": "Zack Van Gerbig es un guitarrista talentoso y un miembro fundamental de la banda de Hep Alien en 'Gilmore Girls'. A lo largo de la serie, demuestra su dedicación a la música y su lealtad hacia sus amigos y compañeros de banda.",
 "facts": {
   "ocupación": "Músico / Miembro de Hep Alien",
-  "intereses": ["Música rock", "Batería", "Lane Kim"],
+  "intereses": [" Música rock", " Batería", " Lane Kim"],
   "número de apariciones":101
 }
 },
@@ -285,7 +285,7 @@ export default [
   "imageUrl": "https://annotatedgilmoregirls.files.wordpress.com/2018/06/fran-weston.jpg",
   "facts": {
       "ocupación": "Dueña de la tienda de antigüedades",
-      "intereses": ["Antigüedades", "Historia", "Cultura"],
+      "intereses": [" Antigüedades", " Historia", " Cultura"],
       "número de apariciones": 11
   }
 }

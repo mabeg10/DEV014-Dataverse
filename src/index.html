@@ -9,19 +9,26 @@
 
 <body>
   <header>
-    <h1> GILMORE GIRL SERIE </h1>
+    <h1> GILMORE GIRLS SERIE </h1>
   </header>
   <main>
     <h2> </h2>
-    <label for="filter"> Filtrar por :</label>
-    <select id="filter" data-testid="select-filter" name="intereses">
-      <option value=""></option>
-      <option value="Arte">Arte</option>
-      <option value="Café">Café</option>
-      <option value="Música">Música</option>
-      <option value="Libros">Libros</option>
-    </select>
-
+    <div id="controles"> 
+      <label for="filter"> Filtrar por :</label>
+      <select id="filter" data-testid="select-filter" name="intereses">
+        <option value=""></option>
+        <option value=" Arte">Arte</option>
+        <option value=" Café">Café</option>
+        <option value=" Música">Música</option>
+        <option value=" Libros">Libros</option> 
+      </select>
+      <label for="order">Ordenar por :</label>
+      <select id="order" data-testid="select-sort" name="alfabeto">
+        <option value=""></option>
+        <option value="asc">A Z</option>
+        <option value="desc">Z A</option>
+      </select>
+    </div>
     <div id="root"> </div>
   </main>
   <footer></footer>
