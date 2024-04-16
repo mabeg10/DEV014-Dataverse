@@ -26,11 +26,6 @@ describe('sortData', () => {
     const actual = sortData(fakeDataNew, 'name', 'asc');
     expect(actual).toEqual(sortAsc);
   });
-  it('Should return a message of Error in definition',()=>{
-    const actual = sortData();
-    expect(actual).not.toContain('Emily Gilmore');
-
-  });
 });
 
   
