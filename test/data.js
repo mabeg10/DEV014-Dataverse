@@ -335,3 +335,8 @@ export const sortAsc = [
 
   },
 ]
+export const prom = [
+  { facts: { 'número de apariciones': 63 } },
+  { facts: { 'número de apariciones': 53 } },
+  { facts: { 'número de apariciones': 103 } },
+];

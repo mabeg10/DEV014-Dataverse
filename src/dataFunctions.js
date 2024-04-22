@@ -1,4 +1,3 @@
-
 export function filterData(data, filterBy, value) {
 
   if(!data || !filterBy || !value) return 'Faltan definir parametros' // Ejemplo coach Carlos

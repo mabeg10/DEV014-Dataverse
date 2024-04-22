@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dataverse</title>
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -11,31 +12,52 @@
   <header>
     <h1> GILMORE GIRLS SERIE </h1>
   </header>
+
+  <div class="menu-icon">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+ 
   <main>
-    <h2> </h2>
-    <div id="controles"> 
-      <label for="filter"> Filtrar por :</label>
-      <select id="filter" data-testid="select-filter" name="intereses">
-        <option value=""></option>
-        <option value=" Arte">Arte</option>
-        <option value=" Café">Café</option>
-        <option value=" Música">Música</option>
-        <option value=" Libros">Libros</option> 
-      </select>
-      <label for="order">Ordenar por :</label>
-      <select id="order" data-testid="select-sort" name="alfabeto">
-        <option value=""></option>
-        <option value="asc">A Z</option>
-        <option value="desc">Z A</option>
-      </select>
-      <button type="reset" data-testid="button-clear" id="reset-button">Limpiar</button>  
-    </div>
-    <div id="estadística">
-      <button id= "calcular" >PROMEDIO DE APARICIONES:</button>
+    <button class="abrir-menu"> abrir-menu</button>
+    <nav class="nav">
+      <button id="cerrar">Cerrar</button>
+      <div id="controles">
+        <label for="filter"> Filtrar por :</label>
+        <select id="filter" data-testid="select-filter" name="intereses">
+          <option value=""></option>
+          <option value=" Arte">Arte</option>
+          <option value=" Café">Café</option>
+          <option value=" Música">Música</option>
+          <option value=" Libros">Libros</option>
+        </select>
+
+        <label for="order"> Ordenar por :</label>
+        <select id="order" data-testid="select-sort" name="alfabeto">
+          <option value=""></option>
+          <option value="asc">A Z</option>
+          <option value="desc">Z A</option>
+        </select>
+
+        <button id="calcular">PROMEDIO DE APARICIONES:</button>
+        <button id="resetButton">LIMPIAR</button>
       </div>
+      </nav>
+
+
+    <div id="estadistica">
+
+    </div>
+
+
     <div id="root"> </div>
+
   </main>
-  <footer></footer>
+  <footer>
+    <p>Derechos de autor &copy;Mirella Rivas y &copy;María Belén Guzmán</p>
+  </footer>
   <script src="main.js" type="module"></script>
 </body>
+
 </html>
