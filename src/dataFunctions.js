@@ -33,6 +33,8 @@ export function sortData(data, sortBy, sortOrder) {
     } 
   }
 }
+
+
 export function computeStats(data){
 
 
@@ -50,7 +52,7 @@ export function computeStats(data){
     return acc;
   },
 
-  // Inicializar el objeto de acumulador con las propiedades necesarias
+  
   { sum: 0, count: 0 }
   );
 
@@ -59,10 +61,3 @@ export function computeStats(data){
 
   return stats;
 }
-
-
-
-
-//export const anotherExample = () => {
-//return [];
-//};                            

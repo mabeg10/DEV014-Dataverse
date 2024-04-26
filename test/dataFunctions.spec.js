@@ -1,8 +1,9 @@
 import { filterData, sortData, computeStats } from '../src/dataFunctions.js';
-import { data as fakeData, sortAsc as fakeDataNew, prom as fakeDataThree} from './data.js';
+import { data as fakeData, sortAsc as fakeDataNew, sortDesc as fakeDataSort, prom as fakeDataThree} from './data.js';
 
 const data = fakeData
 const sortAsc = fakeDataNew 
+const sortDesc = fakeDataSort
 const prom = fakeDataThree
 
 
@@ -27,8 +28,12 @@ describe('sortData', () => {
     const actual = sortData(fakeDataNew, 'name', 'asc');
     expect(actual).toEqual(sortAsc);
   });
-});
 
+  it('returns data sorted in descending order', () => { 
+    const actual = sortData(fakeDataSort, 'name', 'desc'); 
+    expect(actual).toEqual(sortDesc);
+  });
+});
 
 describe('computeStats', () => {
   it('debe calcular las estadísticas correctamente', () => {

@@ -335,6 +335,45 @@ export const sortAsc = [
 
   },
 ]
+export const sortDesc= [
+  {
+    "id": "miss_patty",
+    "name": "Miss Patty",
+    "shortDescription": "Bailarina retirada.",
+    "description": "Miss Patty es una bailarina retirada y la dueña de la escuela de danza de Stars Hollow. Con un amor por el baile y los chismes, es una figura querida en la comunidad que a menudo ofrece sabios consejos y un oído atento.",
+    "imageUrl": "https://www.plusbydesign.com/cdn/shop/articles/miss_patty_1024x1024.jpg?v=1500067505",
+    "facts": {
+      "ocupación": "Bailarina retirada / Dueña de la escuela de danza",
+      "intereses": [" Bailar", " Chismes", " Enseñar"],
+      "número de apariciones": 103
+    }
+
+  },
+  {
+    "id": "jess_mariano",
+    "name": "Jess Mariano",
+    "shortDescription": "Apasionado por la literatura.",
+    "description": "Jess Mariano es un joven librero con un profundo amor por la literatura, la música y la escritura. A pesar de su actitud desafiante, muestra un lado sensible y reflexivo que lo hace intrigante para aquellos que lo conocen.",
+    "imageUrl": "https://i.pinimg.com/736x/93/1d/69/931d697cac68b072d957f6c59e7662b7.jpg",
+    "facts": {
+      "ocupación": "Librero",
+      "intereses": [" Literatura", " Música", " Escritura"],
+      "número de apariciones": 53
+    }
+  },
+  {
+    "id": "dean_forester",
+    "name": "Dean Forester",
+    "shortDescription": "Vendedor de automóviles.",
+    "description": "Dean Forester es un vendedor de automóviles con una pasión por los coches y los deportes. Su relación con Rory Gilmore es una parte importante de su vida, aunque enfrenta desafíos mientras intenta equilibrar trabajo y amor.",
+    "imageUrl": "https://www.newamericanjackets.com/wp-content/uploads/2020/01/Dean-Forester-Gilmore-Girls-Jared-Padalecki-Jacket.jpg",
+    "facts": {
+      "ocupación": "Vendedor",
+      "intereses": [" Automóviles", " Deportes", " Rory"],
+      "número de apariciones": 63
+    }
+  },
+]
 export const prom = [
   { facts: { 'número de apariciones': 63 } },
   { facts: { 'número de apariciones': 53 } },
