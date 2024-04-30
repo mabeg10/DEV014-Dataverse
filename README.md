@@ -56,8 +56,8 @@ los criterios para la construcción de esta data fueron los siguientes :
 * `facts`: Un objeto con al menos **3** "hechos" o "info" sobre este elemento, en
   formato `"nombre": "valor"`.
 
-![Prompting Inicial](imágenes/prompting1.png)
-![Segundo Prompting](imágenes/prompting2.png)
+![Prompting Inicial](imagen/prompting1.png)
+![Segundo Prompting](imagen/prompting2.png)
 
 
 ## 3. Prototipo de la fidelidad
@@ -84,7 +84,7 @@ c+c+c
 3. Yo usuaria fan de GG quisiera ordenar estos datos para poder localizar de forma más sencilla a los personajes.
 4. Yo usuaria fan de GG quisiera calcular alguna estadística acerca de los personajes.
 
-![Prototipos](imágenes/prototipos.png)
+![Prototipos](imagen/prototipos.png)
 
 
 
