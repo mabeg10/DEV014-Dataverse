@@ -19,7 +19,7 @@ h1 {
     margin: -20px;
     padding: 40px;
     text-align: center;
-    background-image: url("imágenes/cafe.jpg");
+    background-image: url("imagen/cafe.jpg");
     font-family: "Cormorant Garamond", serif;
     font-weight: 500;
     font-style: normal;
@@ -86,7 +86,7 @@ select {
 }
 
 #root {
-    background-image: url("imágenes/fondo.jpg");
+    background-image: url("imagen/fondo.jpg");
     margin-top: -18px;
 }
 
