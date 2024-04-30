@@ -26,12 +26,12 @@ export default [
     {
         "id": "emily_gilmore",
         "name": "Emily Gilmore",
-        "shortDescription": "Socialité y matriarca de su familia.",
+        "shortDescription": "Socialité",
         "description": "Emily Gilmore es una distinguida socialité que se mueve en los círculos más exclusivos de la sociedad. Su amor por el arte y la música clásica refleja su elegancia y sofisticación.",
         "imageUrl": "https://cdn.vox-cdn.com/thumbor/_pmWu3TKeg-CndaOQN5wGl3anrs=/0x0:640x480/1400x1400/filters:focal(269x189:371x291):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/51998983/emily.0.jpeg",
         "facts": {
             "ocupación": "Socialité",
-            "intereses": [" Sociedad", " Arte", " Música clásica"],
+            "intereses": [" Sociedad", " Arte", " Música"],
             "número de apariciones": 113
         }
     },

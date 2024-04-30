@@ -59,15 +59,17 @@ ul {
 
 
 .stiloLi img {
-    max-width: 100%;
-    /*  ancho de la imagen */
-    height: auto;
-    /*  altura */
-    box-sizing: border-box;
-    /*  márgenes y rellenos en el ancho y la altura */
-    border-radius: 3px;
 
+    width: 230px;
+    height: 250px;
+    display: block;
+    margin: auto;
+    padding-bottom: 0%;
+    padding-top: 10px;
+    align-items: center;
+    border-radius: 5px;
 }
+
 
 
 select {
